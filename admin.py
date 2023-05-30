@@ -16,8 +16,6 @@ class SubscriptionSelectionAdmin(admin.ModelAdmin):
         "client",
         "subscription",
         "created_at",
-
-
     )
     readonly_fields = (
         "client",
